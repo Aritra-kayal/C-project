@@ -43,7 +43,7 @@ int main(void)
         }
         else
         {
-            printf("Correct❤️! You guessed the number in %d attempt%s.\n",
+            printf("Correct! You guessed the number in %d attempt%s.\n",
                    attempts, attempts == 1 ? "" : "s");
             break;
         }
