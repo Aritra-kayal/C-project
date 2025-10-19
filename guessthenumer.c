@@ -11,7 +11,7 @@ int main(void)
     srand((unsigned)time(NULL));
     target = (rand() % 100) + 1;
 
-    printf("I'm thinking of a number 👌 between 1 and 100.\n");
+    printf("I'm thinking of a number between 1 and 100.\n");
     printf("Try to guess it! (type a non-number to quit)\n");
 
     while (1)
@@ -43,7 +43,7 @@ int main(void)
         }
         else
         {
-            printf("Correct! You guessed the number in %d attempt%s.\n",
+            printf("Correct❤️! You guessed the number in %d attempt%s.\n",
                    attempts, attempts == 1 ? "" : "s");
             break;
         }
